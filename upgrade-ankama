@@ -26,11 +26,12 @@ echo "------------"
 echo "Déplacement et changement du nom de fichier..."
 sudo mv ~/Downloads/x64 /bin/ankama -f; echo ""; echo "Changement effectué avec succès !"
 echo ""
-echo "Le launcher se trouve désormais dans /bin/, vous pouvez le lancer depuis la console avec la commande "ankama".
+echo "Le launcher se trouve désormais dans /bin/, vous pouvez le lancer depuis la console avec la commande 'ankama'."
 echo ""
 echo "------------"
 echo "Changement des permissions du launcher..."
-sudo chmod 000 /bin/ankama; sudo chmod a+rx /bin/ankama; echo ""; echo "Changement effectué avec succès !"
+sudo chmod 000 /bin/ankama
+sudo chmod a+rx /bin/ankama
 echo ""
 echo "Permissions changées avec succès !"
 echo ""
