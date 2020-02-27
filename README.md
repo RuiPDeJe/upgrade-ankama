@@ -1,5 +1,6 @@
 # upgrade-ankama
 Installer ou mettre à jour l'ankama launcher sur les distributions linux
+Ce script vous permettra également de lancer le launcher avec la commande "ankama" dans le terminal
 
 Optimisé pour ubuntu
 Script en bash
@@ -10,6 +11,7 @@ Par la suite, il modifie les permissions du programme afin qu'il puisse être ex
 
 # Lancer le script
 ( Assurez-vous d'être dans le même répertoire que le fichier pour exécuter ces commandes )
+Appuyez sur les touches [ctrl]+T pour ouvrir le terminal
 Pour lancer le script, assurez-vous de le rendre exécutable par le biais de la commande :
     - $sudo chmod u+rx upgrade-ankama
 Ensuite, toujours depuis le terminal, effectuer la commande suivante pour l'exécuter :
